@@ -1,0 +1,53 @@
+body {
+	margin: 0;
+	height: 100%;
+	background-color: whitesmoke;
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+
+
+  
+  .description {
+      font-size: 35px;
+      font-family: 'Amatic SC', cursive;
+      text-align: center;
+  }
+  
+  .btn {
+    border: none;
+    display: block;
+    
+    cursor: pointer;
+    text-transform: uppercase;
+    outline: none;
+    overflow: hidden;
+    position: relative;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    background-color:rgb(73, 218, 205);
+    padding: 17px 60px;
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 15%;
+   
+  }
+  a{
+      text-decoration: none;
+      color: black
+  }
+
+  
+  .link {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  
+  .link a {
+    color:black;
+    font-size: 25px; 
+  }
