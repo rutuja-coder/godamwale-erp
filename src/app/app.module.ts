@@ -5,15 +5,16 @@ import { AppComponent } from './app.component';
 import { ProductdetailComponent } from './productdetail/productdetail.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { RouterModule } from '@angular/router';
-import { LoginComponent } from './login/login.component';
+
 import { OperationComponent } from './operation/operation.component';
 import { ListingserviceComponent } from './listingservice/listingservice.component';
 import { HrComponent } from './hr/hr.component';
+import{AuthenticationModule} from './authentication/authentication.module'
 
-import { SignupComponent } from './signup/signup.component';
 import { AttendanceComponent } from './attendance/attendance.component';
 import { AccountComponent } from './account/account.component';
 import { NiyuraComponent } from './niyura/niyura.component';
+import { routing } from './app.routing';
 
 
 
@@ -23,16 +24,15 @@ import { NiyuraComponent } from './niyura/niyura.component';
     AppComponent,
     ProductdetailComponent,
     TopBarComponent,
-    LoginComponent,
+    
     OperationComponent,
     ListingserviceComponent,
     HrComponent,
     
-    SignupComponent,
     AttendanceComponent,
     AccountComponent,
     NiyuraComponent,
-    
+  
     
     
     
@@ -40,10 +40,10 @@ import { NiyuraComponent } from './niyura/niyura.component';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    AuthenticationModule,
+    routing,
     RouterModule.forRoot([
       { path: '', component: ProductdetailComponent },
-      { path: 'signup',component:SignupComponent},
-      { path :'login',component:LoginComponent},
       {path:'hr',component:HrComponent},
       {path:'account',component:AccountComponent},
       {path:'operation',component:OperationComponent},
@@ -56,3 +56,4 @@ import { NiyuraComponent } from './niyura/niyura.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
