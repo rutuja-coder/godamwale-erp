@@ -7,7 +7,11 @@ a {
   margin-top: 20px
   
 }
-
+.image{
+  height:40em; background-size:cover; width:auto;
+  background-image:url("/my-app/src/app/Time Att. 3.jpg");
+  background-position:50% 50%;
+}
 a:hover {
   background-color: #ddd;
   color: black;
