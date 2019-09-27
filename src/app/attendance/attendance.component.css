@@ -22,6 +22,18 @@
     transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
    
   }
+  .button1{
+    
+    font-size:1.5rem;
+    border:2px solid lightskyblue;
+    border-radius:100px;
+    width:40px;
+    height:40px;
+    padding:5px;
+    margin: 10% auto;
+    transition: .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+   
+  }
   
   .icon{
    position: relative;
@@ -30,7 +42,13 @@
    text-align:center;
     
   }
-  
+  .icon1{
+    position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+    text-align:center;
+     
+   }
 
   .button:hover{
     width:125px;

@@ -4,6 +4,7 @@ import { LoginComponent } from '../login/login.component';
 import { SignupComponent } from '../signup/signup.component';
 
 import { routing } from './authentication.routing';
+import { ForgotpasComponent } from '../forgotpas/forgotpas.component';
 
 
 @NgModule({
@@ -11,7 +12,8 @@ import { routing } from './authentication.routing';
   declarations: [
     
     LoginComponent,
-    SignupComponent
+    SignupComponent,
+    ForgotpasComponent
   ],
   
  

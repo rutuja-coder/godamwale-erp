@@ -32,7 +32,7 @@ import { routing } from './app.routing';
     AttendanceComponent,
     AccountComponent,
     NiyuraComponent,
-  
+    
     
     
     
